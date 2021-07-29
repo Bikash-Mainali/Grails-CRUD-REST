@@ -1,0 +1,211 @@
+// Main colors
+@greyRed-color:#b10c29;
+@greyRed-nav-bg: #ffffff;
+@greyRed-a-color:#231f20;
+@greyRed-page-bg: #f0f2f6;
+@greyRed-nav-header-bg:#989898;
+@greyRed-primary-btn: #006db6;
+@ibox-title-bg:#ffffff;     // IBox Background header
+
+.greyRed {
+	a{color:@greyRed-color;}
+	a:focus{outline:none;}
+	.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active, .open .dropdown-toggle.btn-primary {
+			background-color: @greyRed-color;
+		border: 1px solid darken(@greyRed-color, 25%);
+	}
+	.dw-fa-button {
+		color: @greyRed-color;
+	}
+	.new-report-button {
+		background-color: @greyRed-color;
+		border-radius: 3px;
+		padding: 2px 4px;
+		color: white;
+	}
+	.btn-primary {
+		border: none!important;
+		background-color: @greyRed-color;
+		color:@greyRed-nav-bg;
+	}
+	.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .label-success, .badge-success {
+		background-color: @greyRed-color;
+		border: 1px solid @greyRed-color;
+	}
+	.label-success {
+		background-color:@greyRed-a-color;
+		border: 1px solid @greyRed-a-color;
+	}
+
+	.label-primary, .badge-primary {
+		background: @greyRed-color;
+	}
+
+	.report-container {
+		border: 1px solid @greyRed-color;
+		background-color: lighten(@greyRed-color, 25%);
+	}
+	._page-background-color {
+		background-color: @greyRed-page-bg;
+	}
+	.spin-icon {
+		background: @greyRed-color !important;
+	}
+	.nav-header {
+		background:@greyRed-a-color;
+
+	}
+	.mini-navbar .nav-second-level {
+		background: @greyRed-nav-bg;
+	}
+	.breadcrumb {
+		background: transparent;
+	}
+	.page-heading {
+		border: none;
+	}
+	.nav > li.active {
+		background: darken(@greyRed-color, 3%);
+	}
+	.nav > li > a {
+		color: @greyRed-a-color;
+	}
+	.nav > li.active > a {
+		color: @ibox-title-bg;
+	}
+	.navbar-minimalize {
+		background: @greyRed-color;
+		border-color: @greyRed-color;
+	}ibox-title
+	.navbar-static-top {
+		background: @ibox-title-bg;
+	}
+	.dashboard-header {
+		background: transparent;
+		border-bottom: none !important;
+		border-top: none;
+		padding: 20px 30px 10px 30px;
+	}
+
+
+	.ibox-title, .ibox-content {
+		border-width: 1px;
+	}
+
+	.ibox-content:last-child {
+		border-style: solid solid solid solid;
+	}
+
+	.nav > li.active {
+		border: none;
+	}
+
+	.nav-header a.dropdown-toggle {
+		color: @ibox-title-bg;
+		margin-top: 10px;
+	}
+
+	.nav-header a.dropdown-toggle .text-muted {
+		color: @ibox-title-bg;
+		opacity: 0.8;
+	}
+
+	.img-circle {
+		border-radius: 5px;
+	}
+
+	.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+		background: darken(@greyRed-color, 5%);
+		color: @ibox-title-bg;
+	}
+
+	.nav.nav-tabs > li.active > a {
+		color: #555;
+	}
+
+	.nav.nav-tabs > li.active {
+		background: transparent;
+	}
+	#page-wrapper {
+		background: @greyRed-nav-header-bg;
+	}
+	.toast-success {
+		background-color: @greyRed-color;
+	}
+
+	.panel-body .nav-pills > li.active > a,.panel-body .nav-pills > li.active > a:hover,.panel-body .nav-pills > li.active > a:focus {
+		background-color:@greyRed-color !important;
+		color: white !important;
+	}
+
+	.ranges li{
+		color:darken(@greyRed-color, 15%);
+
+	}
+
+	.btn-success,.ranges li.active, .ranges li:hover{
+		background:@greyRed-color;
+		border: 1px solid darken(@greyRed-color, 2%);
+		color:@ibox-title-bg;
+
+	}
+	.btn-success:hover {
+		background: @greyRed-color;
+		border: 1px solid darken(@greyRed-color, 2%);
+		color:@ibox-title-bg;
+
+	}
+	.sidebar-collapse > ul.metismenu > li > ul.nav > li > a{ color:@greyRed-nav-bg;
+	}
+	.border-black-solid-1px {
+		border: 1px solid @greyRed-color;
+	}
+	.themeColor {
+		color:@greyRed-color;
+	}
+	.collapse.in, .collapse {
+		background:@greyRed-color;
+	}
+	.chosen-container-single .chosen-default, .chosen-container-single .chosen-single{
+		color:@greyRed-color;
+	}
+	.search-choice {
+		background:@greyRed-color!important;
+		color:@greyRed-nav-bg!important;
+		border:1px solid @greyRed-color!important;
+	}
+	.float-e-margins h3, .float-e-margins h3 small {
+		color:@greyRed-nav-bg;
+	}
+	.ibox-title h5, .ibox-content h5 {
+		color:@greyRed-a-color;
+	}
+
+	.chartBrandingText02{color:@greyRed-color;	}
+
+
+}
+
+.greyRed_accent-color {
+	background-color: @greyRed-color;
+}
+
+.greyRed_nav-background-color {
+	background-color: @greyRed-nav-bg;
+}
+
+.greyRed_nav-text-color {
+	background-color: @greyRed-a-color;
+}
+
+body.greyRed {
+	background: @greyRed-nav-bg;
+}
+
+.fixed-nav.greyRed .navbar-fixed-top {
+	background: @ibox-title-bg;
+}
+.greyRed_page-background-color {
+	background:@greyRed-nav-header-bg;
+
+}

@@ -1,0 +1,192 @@
+/* Only demo */
+#page-wrapper {
+  overflow: hidden !important;
+}
+
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+table td.selected {
+  background-color: rgba(76,175,80,.5);
+
+}
+
+th.borderless {
+  border: none !important;
+}
+
+.star-favorite {
+  color: #f0ad4e;
+}
+
+/*
+   These are the styles for the fixedFirstColumn directive
+*/
+[fixed-first-column] {position:relative}
+[fixed-first-column]>.table-responsive {margin-left:150px;}
+[fixed-first-column]>.table-responsive .table {}
+
+[fixed-first-column]>.table-responsive .table>thead>tr>td:first-child,
+[fixed-first-column]>.table-responsive .table>tbody>tr>td:first-child,
+[fixed-first-column]>.table-responsive .table>thead>tr>th:first-child,
+[fixed-first-column]>.table-responsive .table>tbody>tr>th:first-child {
+  position: absolute;
+  min-width: 150px;
+  width: 150px;
+  border-right: 1px solid #ddd !important;
+  border-bottom:1px solid #f5f5f5 !important;
+  left:0;
+  top:auto;
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+}
+
+[fixed-first-column] > .table-responsive .table > thead > tr > td:first-child > div,
+[fixed-first-column] > .table-responsive .table > tbody > tr > td:first-child > div,
+[fixed-first-column] > .table-responsive .table > thead > tr > th:first-child > div,
+[fixed-first-column] > .table-responsive .table > tbody > tr > th:first-child > div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position:relative;
+}
+
+[fixed-first-column] td {
+  min-width:100px; /* default width */
+  max-width:300px;
+}
+
+
+.inmodal .modal-icon-small {
+  font-size: 21px;
+  color: #e2e3e3;
+}
+
+.inmodal .modal-icon-med {
+  font-size: 42px;
+  color: #e2e3e3;
+}
+
+.inmodal .modal-icon-lg {
+  font-size: 84px;
+  color: #e2e3e3;
+}
+
+.inmodal .modal-help-header {
+  padding: 30px 15px 15px 15px;
+  text-align: center;
+}
+
+.inmodal .modal-help-body {
+  padding: 10px 30px 30px 30px;
+}
+
+.dw-flot-legend > table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.report-container {
+  border: 1px solid #e5e6e7 ;
+  margin: 10px 10px 0 0;
+  padding: 5px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+.available-report-container .ibox-title{
+  padding: 8px 15px 8px;
+  min-height: 0;
+}
+
+.available-report-container{
+  overflow-y: scroll;
+  height: 625px;
+}
+
+.rep {
+  padding: 5px 10px;
+  margin: 5px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+
+  text-align: left;
+  cursor: move;
+}
+
+.no-border {
+  border: 0;
+}
+
+.border-black-solid-1px{
+  border: 1px solid black;
+}
+
+.daterangepicker .input-mini-custom{
+  //margin-top: -8px !important;
+}
+
+.daterangepicker label{
+  font-weight: bold;
+}
+
+/* Default for the button font awesome icons that behave like buttons */
+/* This is done so we can change them on our skins as opposed to text-success that
+ we always want as green color */
+.dw-fa-button {
+  color: @navy;
+}
+
+.new-report-button {
+  background-color: @navy;
+  border-radius: 3px;
+  padding: 2px 4px;
+  color: white;
+  margin-left:8px;
+}
+
+/* Custom Styles for Theme Preview Swatches */
+._accent-color {
+  background-color: @navy;
+}
+
+._nav-background-color {
+  background-color: @nav-bg;
+}
+
+._nav-text-color {
+  background-color: @nav-text-color;
+}
+
+._page-background-color {
+  background-color: @gray;
+}
+a.navbar-minimalize i{color:@ibox-title-bg;}
+
+.chartBrandingText01{
+  color:@navy;
+
+}
+/*.chartBrandingText02 {
+  color:#1c84c6;
+}*/
+
+
+/***********************custom Css************************/
+/*****************Datepicker Css*********************/
+.daterangepicker label.radio-inline #incurred { right:22px;}
+.daterangepicker label.radio-inline #paid { right:9px;}
+.daterangepicker input[type="radio"].input-mini {
+  height:15px!important;
+}
+
+
+
+

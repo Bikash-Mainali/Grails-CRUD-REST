@@ -1,0 +1,222 @@
+.i-checks label {
+    margin-right: 15px;
+}
+
+.icheck--custom .i-checks {
+    margin-bottom: 5px !important;
+}
+
+a.info-icon {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #999;
+    background: #f2f2f2;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.config-form {
+    margin-bottom: 25px;
+}
+
+.config-form .row--border-b {
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 10px;
+}
+
+.se-config-remove-icon {
+    margin-left: 15px;
+    position: relative;
+    top: 10px;
+    right: -5px;
+}
+
+.tab-content {
+    overflow: scroll;
+    height: auto;
+}
+
+.d--flex {
+    display: flex;
+}
+
+.d--flex .flex--1 {
+    flex: 1;
+}
+
+.d--flex .flex--self-center {
+    align-self: center;
+}
+
+.btns {
+    margin:15px 15px 0 0;
+    padding: 5px;
+}
+
+.checkmark-button{
+    margin-top: 25px;
+    margin-left: -15px;
+    white-space: normal;
+}
+
+.d--flex label {
+    float:left;
+    margin-bottom: 21px;
+    width: 10em;
+}
+
+.flexbox-row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.vendorLevelTable {
+    max-height: 250px;
+    height: 250px;
+    overflow-y: scroll
+}
+
+.col-form-label {
+    text-align: center;
+}
+
+table, th, td {
+    text-align: center;
+    padding: 9px;
+}
+
+.editable-table tr td {
+    height: 30px;
+}
+
+.round-icon {
+    border-radius: 50%;
+}
+
+.inner-icon {
+    padding: 1px 6px;
+}
+
+.navbar-fixed-top {
+    background: #fff;
+    transition-duration: 0.4s;
+    border-bottom: 1px solid #e7eaec !important;
+    z-index: 2030;
+    position: fixed;
+    right: 0;
+    left: 0;
+    padding: 0;
+    top: 0;
+}
+
+.navbar-fixed-top .navbar-form-custom .form-control {
+    height: 50px;
+}
+
+.navbar-fixed-top,
+.navbar-static-top {
+    background: #f3f3f4;
+}
+
+.fixed-nav #wrapper {
+    margin-top: 0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none;
+    border-color: #dddddd #dddddd rgba(0, 0, 0, 0);
+    border-bottom: #f3f3f4;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #555555;
+    cursor: default;
+}
+.nav.nav-tabs > li.active > a {
+    border-top: 2px solid #1ab394 !important;
+}
+
+.module-search {
+    padding: 16px;
+}
+
+.btns-change-history {
+    align-self: center;
+    visibility: hidden;
+}
+
+.module-count{
+    float: right;
+}
+
+.export-btn {
+    margin-top: 10px;
+}
+
+.module-status {
+    pointer-events: none;
+}
+
+.update-btn {
+    float: right;
+    margin-top: 13px;
+    margin-bottom: 24px;
+}
+
+.form-back{
+    background: #f5f5f5;
+    border-radius: 7px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.view-modulenumber {
+    padding-left: 6%;
+}
+
+.edit-modulenumber {
+    padding-left: 14%;
+}
+
+[contenteditable=true]:empty:before{
+    content: attr(data-placeholder);
+    pointer-events: none;
+    display: block;
+}
+
+.panel-enabled{
+    background-color: #ABE098;
+    color: black !important;
+}
+
+.panel-enabled > .panel-title{
+    color: black !important;
+}
+
+.disabled{
+pointer-events: none;
+}
+
+[data-placeholder]:empty::before {
+    color:#999;
+    font-style: italic;
+}
+
+.se-content-editable{
+    background: white;
+}

@@ -1,0 +1,40 @@
+ /* Based on the theme at http://bonsaiden.github.com/JavaScript-Garden */
+
+/*<!--activeline-->*/
+.cm-s-untitled .CodeMirror-activeline-background { background: #253540; }
+
+.cm-s-untitled.CodeMirror {
+    background: none;
+    color: grey;
+}
+
+.cm-s-untitled div.CodeMirror-selected { background: #3f51b5; }
+.cm-s-untitled .CodeMirror-line::selection, .cm-s-untitled .CodeMirror-line > span::selection, .cm-s-untitled .CodeMirror-line > span > span::selection { background: rgba(49, 77, 103, .99); }
+.cm-s-untitled .CodeMirror-line::-moz-selection, .cm-s-untitled .CodeMirror-line > span::-moz-selection, .cm-s-untitled .CodeMirror-line > span > span::-moz-selection { background: rgba(49, 77, 103, .99); }
+.cm-s-untitled .CodeMirror-gutters { background: #0F192A; border-right: 1px solid; }
+.cm-s-untitled .CodeMirror-guttermarker { color: white; }
+.cm-s-untitled .CodeMirror-guttermarker-subtle { color: #d0d0d0; }
+.cm-s-untitled .CodeMirror-linenumber { color: #D0D0D0; }
+.cm-s-untitled .CodeMirror-cursor { border-left: 1px solid black; }
+
+.cm-s-untitled span.cm-comment { color: #428BDD; }
+.cm-s-untitled span.cm-atom { color: #AE81FF; }
+.cm-s-untitled span.cm-number { color: #D1EDFF; }
+.cm-s-untitled span.cm-builtin { color: blue; }
+
+.cm-s-untitled span.cm-property, .cm-s-untitled span.cm-attribute { color: #A6E22E; }
+.cm-s-untitled span.cm-keyword { color: teal; }
+.cm-s-untitled span.cm-string { color: #1DC116; }
+
+.cm-s-untitled span.cm-variable { color: #FFAA3E; }
+.cm-s-untitled span.cm-variable-2 { color: #FFAA3E; }
+.cm-s-untitled span.cm-def { color: #4DD; }
+.cm-s-untitled span.cm-bracket { color: blue; }
+.cm-s-untitled span.cm-tag { color: #449; }
+.cm-s-untitled span.cm-link { color: #AE81FF; }
+.cm-s-untitled span.cm-error { color: red; text-decoration-line: underline; text-decoration-style: dotted;}
+
+.cm-s-untitled .CodeMirror-matchingbracket {
+  text-decoration: all;
+  color: purple !important;
+}

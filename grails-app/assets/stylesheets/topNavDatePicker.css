@@ -1,0 +1,60 @@
+#topNavBarDatePicker.top-left::before {
+	left: 8px;
+}
+
+#topNavBarDatePicker.top-left::after {
+	left: 10px;
+}
+
+#topNavBarDatePicker::before, #topNavBarDatePicker::after {
+	position: absolute;
+	display: inline-block;
+	content: '';
+}
+
+#topNavBarDatePicker::before {
+	top: -8px;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+	border-bottom: 8px solid #ccc;
+}
+
+#topNavBarDatePicker::after {
+	top: -6px;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid #fff;
+	border-left: 6px solid transparent;
+}
+
+.small_font{
+	font-size: 12px !important;
+}
+
+.chosen_period {
+	text-align: left !important;
+}
+
+.chosen_period a {
+	line-height: 27px !important;
+}
+
+.chosen_period a span, .chosen_period ul li {
+	color: #676a6c !important;
+}
+
+.chosen_period .chosen-results {
+	max-height:150px !important;
+}
+
+.visibilityHidden {
+	visibility: hidden;
+}
+
+.calendar_class {
+	font-size: 14px;
+	margin-top: 4px ;
+}
+
+input[class*="date-picker"] {
+	border: 1px solid #a5a7a7 !important;
+}

@@ -1,0 +1,441 @@
+/************************************************************
+Application
+    Text color : All themes text will use color #676a6c.
+    //present in base.less
+Page
+    background: Apply user specified color of page background
+Action link (Download / Schedule Page)
+    Link color: All themes action links of Download & Schedule pages and  will use standard link color #337ab7.
+    //present in boostrap.css, eaCss.css and paCss.css
+Toast
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Outline Buttons/ White buttons : Non brandable and all the themes will have the same white and outline buttons.  Examples are cancel buttons/non visited tabs in schedule popup/ Upload buttons in settings page
+    //use btn-white class for that
+Solid Buttons
+    Background - Apply user specified color of alternate background color.
+    Text - Apply user specified color of alternate text
+Benchmark toggle button:
+    Background - Apply user specified color of alternate background color.
+    Text - Apply user specified color of alternate text
+    //covered by solid buttons beacuse uses same class and color
+All icons (excluded bell and logout icon)
+    Color - Apply user specified color of primary background color.
+Logout Icon / text :
+    Color - All themes logout icon color and logout text will use standard color #676a6c.
+Badges/ Labels
+    Background - Apply user specified color of alternate background color.
+    Text - Apply user specified color of alternate text color
+Chosen hover list items
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Multi select Chosen selected item
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Single select Chosen selected item
+    Text - Apply user specified color of primary background
+Date picker Buttons
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Date picker selected item
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Date picker non selected item
+    Background - leave the default gray.
+    Text - Apply user specified color of primary background color
+Calendar date range start/end date :
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Calendar date range in between date :
+    Background - Apply 60% Lighter counterpart of user specified color of primary background color.
+    Text - Leave the default text color of calendar as it is
+Profile box :
+    Background - Apply user specified color of primary background.
+    Text - Apply user specified color of primary text
+Navigation/Menu
+    Background -  Apply user specified color of navigation background color
+    Text -  Apply user specified color of menu text color
+Menu/Submenu Item Hover / Selected Item
+    Background -  Apply user specified color of Menu Item Hover/Selected Background color
+    Text -  Apply user specified color of Menu Item Hover/Selected Text color
+Sub menu :
+    Background - apply user specified color of submenu background color
+    Text - Apply user specified color of menu text color
+Draggable panel of Bundle lightbox :
+    Background  - apply 60% lighter counterpart of alternate background color
+    Border - apply alternate background color
+************************************************************/
+
+:root {
+    --primaryBackgroundColor: #4caf50;
+    --primaryBackgroundColorLighter: #E5FFE9;
+    --primaryTextColor: #ffffff;
+    --alternateBackgroundColor: #1c84c6;
+    --alternateBackgroundColorLighter: #B5FFFF;
+    --alternateTextColor: #ffffff;
+    --menuBackgroundColor: #2f4050;
+    --menuTextColor: #a7b1c2;
+    --menuSelectedBackgroundColor: #2F4050;
+    --menuSelectedTextColor: #ffffff;
+    --subMenuBackgroundColor: #293846;
+    --pageBackgroundColor: #f3f3f4;
+}
+
+.appPreviewBaseClass {
+    --primaryBackgroundColor: #4caf50;
+    --primaryBackgroundColorLighter: #E5FFE9;
+    --primaryTextColor: #ffffff;
+    --alternateBackgroundColor: #1c84c6;
+    --alternateBackgroundColorLighter: #B5FFFF;
+    --alternateTextColor: #ffffff;
+    --menuBackgroundColor: #2f4050;
+    --menuTextColor: #a7b1c2;
+    --menuSelectedBackgroundColor: #2F4050;
+    --menuSelectedTextColor: #ffffff;
+    --subMenuBackgroundColor: #293846;
+    --pageBackgroundColor: #f3f3f4;
+}
+
+body{
+    color: #676a6c;
+    background-color: var(--menuBackgroundColor) !important;
+}
+.authDropdown .dropdown-toggle:hover{background-color: var(--menuSelectedBackgroundColor)!important; color:var(--menuSelectedTextColor)!important; }
+.authDropdown .dropdown-toggle{background-color: var(--menuBackgroundColor)!important; color:var(--menuTextColor)!important; }
+.uib-datepicker-popup .uib-button-bar .btn{color: var(--alternateTextColor ) !important;background-color: var(--alternateBackgroundColor) !important; border-color: var(--alternateBackgroundColor)!important}
+.uib-datepicker-popup table td .text-info {color: var(--alternateTextColor ) !important}
+.uib-datepicker-popup table{ background-color: var(--pageBackgroundColor);}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info, .btn-info:active:focus, .btn-info:active:hover, .btn-info.active:hover, .btn-info.active:focus{background-color: var(--menuSelectedBackgroundColor)!important }
+.dw-fa-button, a.dw-fa-button:hover, a.dw-fa-button:focus, .dw-fa-buttons, a.dw-fa-buttons:hover, a.dw-fa-buttons:focus{
+    color: var(--menuSelectedTextColor);
+}
+.uib-datepicker-popup .uib-button-bar .btn:hover{background-color: var(--alternateBackgroundColor) !important; border-color: var(--alternateBackgroundColor)!important}
+
+
+.page-wrapper{
+    background-color: var(--pageBackgroundColor);
+}
+
+#previewWrapper{
+    color: #676a6c;
+    background-color: var(--menuBackgroundColor);
+}
+.toast-success {
+    background-color: var(--primaryBackgroundColor);
+}
+
+#toast-container .toast {
+    color: var(--primaryTextColor);
+}
+
+.btn-primary, .btn-primary:hover, .label-success, .label-primary, .badge-primary {
+    border: 1px solid var(--alternateBackgroundColor);
+    background-color: var(--alternateBackgroundColor);
+    color: var(--alternateTextColor);
+}
+
+.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: var(--alternateBackgroundColor);
+    border: 1px solid var(--alternateBackgroundColor);
+}
+
+.btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:hover, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .label-success, .badge-success {
+    background-color: var(--alternateBackgroundColor);
+    border: 1px solid var(--alternateBackgroundColor);
+    color: var(--alternateTextColor);
+}
+
+.btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success.active[disabled], fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
+    background-color: var(--alternateBackgroundColor);
+    border: 1px solid var(--alternateBackgroundColor);
+}
+
+.panel-body .nav-pills > li.active > a,.panel-body .nav-pills > li.active > a:hover,.panel-body .nav-pills > li.active > a:focus {
+    background-color: var(--alternateBackgroundColor) !important;
+    color: white !important;
+}
+
+/*i:not(.fa-bell):not(.fa-sign-out):not(.fa-circle):not(.fa-level-up):not(.fa-level-down):not(.sidebar-collapse ul li:not(.nav-header) i){*/
+/*    color: var(--primaryBackgroundColor);*/
+/*}*/
+
+.label-success {
+    border: 1px solid var(--alternateBackgroundColor);
+}
+
+.new-report-button {
+    background-color: var(--alternateBackgroundColor);
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+}
+
+.chosen-container .chosen-results li.highlighted{
+    background: var(--primaryBackgroundColor) !important;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(20%,var(--primaryBackgroundColor)),color-stop(90%,var(--primaryBackgroundColor))) !important;
+    background-image: linear-gradient(var(--primaryBackgroundColor) 20%,var(--primaryBackgroundColor) 90%) !important;
+    color: var(--primaryTextColor) !important;
+}
+
+.search-choice {
+    background: var(--primaryBackgroundColor) !important;
+    color: var(--primaryTextColor) !important;
+    border: 1px solid var(--primaryBackgroundColor) !important;
+}
+
+.chosen-container-single .chosen-default{
+    color: #222222!important;
+}
+
+.chosen-container-single .chosen-single{
+    color: #676a6c!important;
+}
+
+.ranges li{
+    color: var(--primaryBackgroundColor);
+}
+
+.ranges li:hover, .ranges li.active, .ranges li.active:hover, .btn-success:hover{
+    background-color: var(--primaryBackgroundColor);
+    border:1px solid var(--primaryBackgroundColor);
+    color: var(--primaryTextColor);
+}
+
+.daterangepicker td:not(.off).active, .daterangepicker td:not(.off).active:hover{
+    background-color: var(--primaryBackgroundColor) !important;
+    color: var(--primaryTextColor) !important;
+}
+
+.daterangepicker td:not(.off):not(.active).in-range{
+    background-color: var(--primaryBackgroundColorLighter) !important;
+}
+
+.nav-header {
+    background: var(--primaryBackgroundColor);
+}
+
+.nav-header a.dropdown-toggle {
+    color: var(--primaryTextColor);
+    margin-top: 10px;
+}
+
+.nav-header a.dropdown-toggle .text-muted {
+    color: var(--primaryTextColor);
+    opacity: 0.8;
+}
+
+.session-timeout {
+    background: var(--pageBackgroundColor);
+}
+
+.session-timeout .session-header{
+    background: var(--primaryBackgroundColor);
+    color: var(--primaryTextColor);
+}
+
+.session-timeout p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.session-timeout .btn {
+    background: var(--alternateBackgroundColor)
+}
+
+.session-timeout a{
+    color: var(--alternateTextColor);
+    text-decoration: none
+}
+
+.sidebar-collapse > ul.metismenu > li > ul.nav > li > a{
+    color: var(--menuTextColor);
+}
+
+.sidebar-collapse > ul.metismenu > li > ul.nav > li > a:hover{
+    color:  var(--menuSelectedTextColor);
+}
+
+.sidebar-collapse > ul.metismenu > li > ul.nav > li.active > a, .sidebar-collapse > ul.metismenu > li > ul.nav > li.active > a:hover{
+    color:  var(--menuSelectedTextColor);
+}
+
+.mini-navbar .nav-second-level, .collapse.in, .nav-second-level {
+    background-color: var(--subMenuBackgroundColor);
+}
+
+.nav > li.active {
+    background-color: var(--menuSelectedBackgroundColor);
+}
+
+.nav > li > a {
+    color: var(--menuTextColor);
+}
+
+.nav > li.active > a {
+    color: var(--menuSelectedTextColor);
+}
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+    background: var(--menuSelectedBackgroundColor);
+    color: var(--menuSelectedTextColor);
+}
+
+.report-container .ui-sortable-handle {
+    background: var(--alternateBackgroundColor) !important;
+    color: var(--alternateTextColor) !important;
+    border: 1px solid var(--alternateBackgroundColor)!important;
+}
+
+.navbar-header .btn-primary, .navbar-header .btn-primary:focus, .navbar-header .btn-primary:active, .navbar-header .btn-primary:active:focus, .navbar-header .btn-primary:active:hover, .navbar-top-links .label-primary{
+    background-color: var(--primaryBackgroundColor);
+    border:1px solid var(--primaryBackgroundColor);
+    color: var(--primaryTextColor);
+}
+
+a.navbar-minimalize i{
+    color: var(--primaryTextColor);
+}
+
+.applyBtn{
+    background-color: var(--primaryBackgroundColor) !important;
+    border: 1px solid var(--primaryBackgroundColor) !important;
+    color: var(--primaryTextColor) !important;
+}
+.chartBrandingText02 {
+    color:var(--alternateBackgroundColor);
+}
+.groupbrand a i {
+    color: var(--primaryBackgroundColor);
+}
+.btn-outline-toggle{
+    border: none !important;
+}
+.btn-outline-toggle:before{
+    color: var(--alternateTextColor) !important;
+    border: 1px solid var(--alternateBackgroundColor) !important;
+    border-radius: 20px;
+}
+.btn-outline-toggle:after{
+    border: #d0d0d0 !important;
+    color: #999999 !important;
+    background-color: #EEEEEE !important;
+}
+/* fancy grid overriding css start*/
+.fancy-grid-header-cell-text, .fancy-grid-header-cell-text a{
+    color: var(--globalTextColor) !important;
+    font-size: 12px;
+}
+.fancy-theme-bootstrap .fancy-grid-header-cell {
+    color: var(--globalTextColor) !important;
+}
+.fancy-theme-bootstrap .fancy-grid-cell{
+    color: var(--globalTextColor)!important;
+}
+.fancy-theme-bootstrap .fancy-grid-cell-over {
+    background: #DDD !important;
+    color: var(--globalTextColor)!important;
+}
+.fancy-bar-text{
+    color: var(--globalTextColor)!important;
+}
+.fancy-records-per-page{
+    color: var(--globalTextColor)!important;
+}
+.popupID{
+    color: var(--globalTextColor)!important;
+    margin-top: 0px!important;
+}
+.data-icon a{
+    color: #333!important;
+}
+/*.fancy-theme-bootstrap li.fancy-combo-item-selected{*/
+    /*background-color:transparent;*/
+/*}*/
+.fancy-combo-result-list li.fancy-combo-item-selected/*.fancy-combo-item-focused*/{
+    background-color:transparent!important;
+}
+.fancy-combo-result-list li.fancy-combo-item-selected.fancy-combo-item-focused{
+    background-color:var(--primaryBackgroundColor)!important;
+}
+.fancy-combo-item-selected .fancy-combo-list-value{
+    color: #333!important;
+}
+.icon-color{
+    color: var(--primaryBackgroundColor)!important;
+    font-weight: bold!important;
+    font-size: 23px!important;
+    margin-top: 2px !important;
+    margin-left: -4px;
+}
+.fancy-panel-bbar .fancy-bar-container .fancy-field-text-input{
+    color: var(--primaryBackgroundColor)!important;
+    font-size: 12px!important;
+}
+.fancy-field-text-input:focus {
+    border-color: var(--alternateBackgroundColor)!important;
+}
+.fancy-combo-item-focused{
+    background-color: var(--primaryBackgroundColor)!important;
+
+}
+.fancy-combo-item-focused .fancy-combo-list-value{
+    color: var(--primaryTextColor)!important;
+}
+.fancy-records-per-page, .fancy-bar-text{
+    color: var(--primaryBackgroundColor)!important;
+}
+.records{
+    font-weight: lighter;
+    font-size: 12px!important;
+}
+.fancy.fancy-tooltip{
+    background-color: #555 !important;
+    border: #444 1.5px solid!important;
+    padding: 6px 12px !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 10px !important;
+    line-height: 16px;
+    position:absolute;
+    display:none;
+    box-sizing:content-box;
+    z-index:3000;
+
+}
+/* fancy grid overriding css end*/
+
+#downloadList > tbody > tr.selectedRow{
+    background-color: #90ee90 !important;
+}
+#downloadList > tbody > tr.selectedRow:hover{
+    background-color: #90ee90 !important;
+}
+#downloadList > tbody > tr:hover{
+    cursor: pointer;
+}
+.fancy-grid-column-sort-DESC .fancy-grid-header-cell-text, .fancy-grid-column-sort-ASC .fancy-grid-header-cell-text{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.fancy{
+    font-size: 12px!important;
+}
+.highcharts-title{
+	font-weight: bold !important;
+}
+
+.custom-dashboard-container .highcharts-container .highcharts-root text {
+    font-family: "Lucida Sans" !important;
+    fill: #3a3838 !important;
+}
+
+.highcharts-axis{
+    color: rgb(58, 56, 56);
+}
+.fancy-panel-tbar .fancy-field-text .fancy-field-text-input{
+    font-size: 12px !important;
+}

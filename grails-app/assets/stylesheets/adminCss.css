@@ -1,0 +1,86 @@
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #a7b1c2;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #8c97ab;
+}
+
+body {
+    background: #2f3f50;
+}
+a{color: #1f5b8e;}
+
+.container {
+    background: #ffffff;
+}
+
+.navbar-default {
+    background-color: #3c454c;
+    border-color: #3d566d;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+h2 {
+    color: #2f4050;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.table thead {
+    background: #e0e9f1;
+}
+.table td{word-break: break-all;
+}
+.adminTbl th{color: #347ab9}
+
+.lr10 {
+    margin: 0 10px;
+}
+.top5{
+    margin-top: 5px;}
+
+.checkbox label{
+    padding-left: 0 !important;
+}
+.side-menu{ padding: 0;}
+.side-menu ul{display: block;
+    width: 100%;}
+.side-menu  li{float: none!important; border-bottom: 1px solid #4c5f73;}
+.side-menu  li a{padding: 15px 15px 15px 30px; color: #a7b1c2}
+.side-menu  li a:hover{color: #2f3f50}
+.navbar{
+    margin-bottom: 0;}
+.no-gutter{margin:0 !important;}
+.main-body{background: #fff; min-height: 92vh}
+.top30{margin-top:30px;}
+
+.message {
+    background: #fff3f3;
+    border: 1px solid darkgreen;
+    color: darkgreen;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 0px
+}
+.error {
+    background: #fff3f3;
+    border: 1px solid red;
+    color: red;
+    margin: 10px 0 5px 0;
+    padding: 5px 5px 5px 0px
+}
+.pagination a {
+    background: #efefef;
+    border: 1px solid #e0e0e0;
+    padding: 3px 9px;
+    margin: 0 2px;
+}
+.pagination span{
+    background: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    padding: 3px 9px;
+    margin: 0 2px;
+}

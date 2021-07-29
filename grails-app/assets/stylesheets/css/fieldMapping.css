@@ -1,0 +1,111 @@
+.field-mapping-grid {
+    max-height: 500px;
+    height: 500px;
+}
+
+.stickyHeader th {
+    position: sticky;
+    top: -1px;
+}
+
+.stickyFilterRow {
+    padding: 0 !important;
+    top: 33px !important;
+    font-weight: normal !important;
+}
+
+.stickyFooter {
+    position: sticky;
+    bottom: 0px
+}
+
+.field-mapping-grid td {
+    line-height: 2 !important;
+}
+
+.convertable {
+    text-align: left;
+    cursor: pointer;
+}
+
+.genericRow {
+    background-color: #d8f1ec;
+}
+
+.revertGeneric {
+    color: #999;
+}
+
+.emptyRow {
+    height: 25px;
+}
+
+.genericRow.updated {
+    background-color: #ddd;
+}
+
+.genericRow.hasclient.revertedToGeneric {
+    background-color: #ddd;
+}
+
+.genericRow.hasclient {
+    background-color: #d8f1ec;
+}
+
+.left-end-content {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.right-end-icon {
+    float: right;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.info-icon {
+    float: right;
+    font-size: 2rem;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.separator-checkbox {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+    height: 20px
+}
+
+.filter-holder .label {
+    font-size: 12px !important;
+}
+
+.filter-top {
+    margin: 10px 10px 5px;
+}
+
+.overlay {
+    background-color: black;
+    background-color: rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* opacity: 0.2; */
+    /* also -moz-opacity, etc. */
+    z-index: 100;
+}
+
+.progress {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 300px;
+    height: 20px;
+    margin: -10px 0 0 -150px;
+    z-index: 101;
+    opacity: 1.0;
+    transform: translate(-50%, -50%);
+}

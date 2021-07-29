@@ -1,0 +1,318 @@
+.mspInputGroup {
+	padding: 7px 10px !important;
+}
+
+.mspInputGroup {
+	display: inline-block;
+	float: left;
+	width: auto;
+	white-space: nowrap;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1;
+	text-align: center;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	/*border-radius: 4px;*/
+}
+
+.multiSelect-modal-header{
+	cursor: move;
+}
+
+.multiSelect-modal-body {
+	padding-bottom: 0;
+	padding-top: 15px;
+}
+
+.multiSelect-modal-body .dataTables_wrapper .dataTables_scroll {
+	border: 1px solid #ccc;
+	margin: 1rem 0;
+}
+
+.multiSelect-modal-body .dataTables_wrapper {
+	padding-bottom: 25px;
+}
+
+.multiSelect-modal-body div.dataTables_scrollHead table.dataTable {
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+	border: 0 !important;
+}
+
+.multiSelect-modal-body div.dataTables_scrollHeadInner {
+	background-color: #F5F5F6 !important;
+}
+
+.multiSelect-modal-body .dataTables_scrollBody {
+	overflow-x: hidden !important;
+	border-top: 1px solid #ccc;
+}
+
+
+.multiSelect-modal-body .table {
+	border-left:0 !important;
+	border-right:0 !important;
+
+}
+
+.multiSelect-modal-body .table th {
+	border-bottom: 0 !important;
+}
+
+.multiSelect-modal-body .dt-button-collection{
+	left: -86px!important;
+	width: 112px;
+}
+#paidDate .dt-buttons {
+	position: relative;
+	float: left;
+	width: 33px;
+}
+
+button.mspPageLength, .multiSelect-modal-body div.dt-button-collection .button-page-length {
+	border: none !important;
+	background: none !important;
+	box-shadow:none !important;
+	padding:1px;
+	color: inherit !important;
+}
+
+.multiSelect-modal-body .showUpIcon {
+	font-size: 13px!important;
+	position: relative;
+	top: 2px;
+	right:10px;
+	margin-left: -11px;
+	margin-right:-2px;
+}
+
+.float-left,.page-info{
+	float: left;
+}
+
+.filter-css {
+	width: 50%;
+	margin-left: 15px;
+}
+
+.multiSelect-modal-body .select-info {
+	float: right;
+}
+
+.multiSelect-modal-body .select-info .select-item {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+
+.multiSelect-modal-body .dataTables_filter label, .multiSelect-modal-body .dataTables_filter input {
+	width: 80% !important;
+	float: left;
+}
+
+.multiSelect-modal-body .dataTables_filter input {
+	margin-left: 0 !important;
+}
+
+.multiSelect-modal-body div.dataTables_wrapper div.dataTables_info {
+	padding: 0 !important;
+	overflow: hidden;
+	margin: 0 -0.06em 0 -0.06em !important;
+}
+
+.multiSelect-modal-body .table > thead > tr > td, .multiSelectTable>tbody>tr>td {
+	padding: 2px !important;
+}
+.multiSelect-modal-body .table > thead > tr > td, .groupSelectTable>tbody>tr>td {
+	padding: 2px !important;
+}
+.criteriaBlock{
+	display:block;
+	float: left;
+	font-weight: normal !important;
+	margin: -15px 5px 5px -15px;
+	padding: 2px 5px;
+	-moz-border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.criteriaBlock  input{border:none; background-color:white;}
+.criteriaBlock  input:focus{outline:none;}
+
+.dataTables_scrollBody .table {
+	position: relative;
+	top: -4px;
+}
+
+.float-right{
+	float: right;
+}
+
+.msptooltip{
+	z-index: 6000!important;
+}
+
+button.mspPageLength{
+	margin-left: 5px;
+	margin-right: 20px;
+	padding: 0 !important;
+	font-size: 20px !important;
+	line-height: 29px !important;
+}
+button.group mspPageLength{
+	margin-left: 5px;#custom-dashboards{
+	min-height: 340px;
+}
+	margin-right: 0px !important;
+	padding: 0 !important;
+	font-size: 20px !important;
+	line-height: 29px !important;
+}
+
+.table_paginate{
+	margin-right: 5px;
+}
+
+.selectBackground:nth-of-type(odd){
+	background-color: #f9f9f9 !important;
+}
+
+.selectBackground:nth-of-type(even){
+	background-color: white !important;
+}
+
+@media (min-width: 992px){
+	.ind .modal-lg {
+		width: 900px;
+	}
+}
+
+.ind {
+	z-index: 5070 !important;
+}
+.dataAvailability  .modal-content {
+	z-index: 6070 !important;
+}
+.dataAvailabilityModifyCriteriaPopup {
+	z-index: 5071 !important;
+}
+
+.groupSelectPopup {
+	z-index: 7070 !important;
+}
+
+div.dt-button-background{
+	background:transparent !important;
+}
+
+.close-css {
+	margin-top: 3.5px!important;
+	font-size: 18px!important;
+}
+
+input[type="checkbox"] {
+	-moz-transform: scale(0.8);
+}
+
+.tdDesc, .tdCode, .thCode, .thDesc {
+	position: relative;
+	top: 1px;
+}
+
+.multiSelect-modal-body {
+	height:392px!important;
+}
+
+/*Firefox CSS*/
+@-moz-document url-prefix() {
+	.multiSelect-modal-body {
+		height:408px!important;
+	}
+
+	.dataTables_scrollBody {
+		height:278px !important;
+	}
+
+	.dataTables_scrollBody .table {
+		position: relative;
+		top: 0px;
+	}
+
+	.tdDesc, .tdCode, .thCode, .thDesc {
+		position: relative;
+		top: 3px;
+	}
+
+	.multiSelect-modal-body .table > thead > tr > td, .multiSelectTable>tbody>tr>td {
+		padding: 0px !important;
+	}
+	.multiSelect-modal-body .table > thead > tr > td, .groupSelectTable>tbody>tr>td {
+		padding: 0px !important;
+	}
+
+	/*Windows Firefox CSS*/
+	.win10 .multiSelect-modal-body {
+		height:397px!important;
+	}
+
+	.win10 .dataTables_scrollBody {
+		height:268px !important;
+	}
+
+	.win10 .dataTables_scrollBody .table {
+		position: relative;
+		top: -4px;
+	}
+
+	.win10 .tdDesc, .win10 .tdCode, .win10 .thCode, .win10 .thDesc {
+		position: relative;
+		top: 1px;
+	}
+
+	.win10 .multiSelect-modal-body .table > thead > tr > td, .win10 .multiSelectTable>tbody>tr>td {
+		padding: 2px !important;
+	}
+	.win10 .multiSelect-modal-body .table > thead > tr > td, .win10 .groupSelectTable>tbody>tr>td {
+		padding: 2px !important;
+	}
+
+}
+.modifyTbl{ width:100%;}
+
+.data-breadcrumb {float:left; padding-left: 15px;}
+.data-right{float:right;}
+.clear{ clear:both;}
+.data-pagination{ float:left;}
+.data-icon{ float:right;}
+.groupTable{ margin-top:5px;}
+.data-groupTbl{/*height:390px; border: 1px solid #ccc; margin-top: 5px;*/ overflow-x: auto;}
+
+.data-icon{float:right; position: relative; top: -8px;padding-left: 5px;}
+#paidDate{
+	height: 370px !important;
+}
+.dataAvailability  .modal-dialog{
+	width: 980px;
+}
+.dataAvailability  .modal-header{
+	height: 28px;
+}
+.dataAvailability .inmodal .modal-header {
+	padding: 5px 15px !important;
+}
+.dataAvailability  .inmodal .modal-title {
+	font-size: 13px;
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+}
+.dataAvailability .close-css {
+	margin-top: -3.5px!important;
+	font-size: 18px!important;
+}
+.data-breadcrumb.m-t-md {
+	margin-top: 5px;
+}
+
+#custom-dashboards{
+	min-height: 340px;
+}

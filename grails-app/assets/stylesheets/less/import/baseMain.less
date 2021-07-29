@@ -1,0 +1,570 @@
+a {
+  color: @color1;
+  outline:0;
+}
+.chartBrandingText02{
+	color:@color1;
+}
+& when (@index="greenGrey"),(@index="darkBlue"), (@index="blackBlue"), (@index="lightBlueGrey"), (@index="greenDarkGrey"), (@index="orangeDarkGrey"), (@index="darkBlueGreen"), (@index="blueGreen"), (@index="blueGrey"), (@index="blueLightGreen"), (@index="blueWhite"), (@index="darkblueWhite"), (@index="darkGreenLightGreen"), (@index="green"), (@index="lightBlueDarkGray"), (@index="redGrey"), (@index="skin-1"), (@index="skin-3") {
+  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: @color1;
+    border: 1px solid darken(@color1, 25%);
+  }
+  .btn-primary {
+    border: 1px solid @color1!important;
+    background-color: @color1;
+  }
+  .new-report-button {
+    background-color: @color1;
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+  }
+  .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .label-success, .badge-success {
+    background-color: @color1;
+    border: 1px solid @color1;
+  }
+  .report-container {
+    border: 1px solid @color1;
+    background-color: lighten(@color1, @per2);
+  }
+  .nav-header {
+    background: @color1;
+    background: url('../patterns/header-profile-@{index}.png');
+  }
+  .mini-navbar .nav-second-level {
+    background: @color2;
+  }
+  .nav-header a.dropdown-toggle {
+    color: @color6;
+    margin-top: 10px;
+  }
+  .nav-header a.dropdown-toggle .text-muted {
+    color: @color6;
+    opacity: 0.8;
+  }
+  .nav-header {
+    background: @color1 !important;
+  }
+  .themeColor {
+    color: @color1;
+  }
+}
+
+& when (@index="blueGreen"), (@index="blueGrey"), (@index="blueLightGreen"), (@index="blueWhite"), (@index="darkblueWhite"), (@index="darkGreenLightGreen"), (@index="green"), (@index="lightBlueDarkGray"), (@index="yellowGray") {
+  #showNewAccessColor {
+    color: #1680c0 !important;
+  }
+}
+
+& when (@index="redGrey") {
+  #showNewAccessColor {
+    color: @color1 !important;
+  }
+}
+
+
+& when (@index="yellowGray") {
+  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+    background-color: @color1 !important;
+    border: 1px solid darken(@color1, 25%);
+    color: @color14;
+  }
+  .btn-primary {
+    border: 1px solid @color1;
+    background-color: @color1;
+    color: @color14;
+  }
+  .dw-fa-button {
+    color: darken(@color1, 8%);
+  }
+  .new-report-button {
+    background-color: @color1;
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+  }
+  .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .label-success, .badge-success {
+    background-color: @color1 !important;
+    border: 1px solid @color1;
+    color: @color14;
+  }
+  .label-primary, .badge-primary {
+    background: @color1;
+    color: @color14;
+  }
+  .report-container {
+    border: 1px solid @color1;
+    background-color: lighten(@color1, @per2);
+  }
+  .yellowGray_page-background-color {
+    background-color: @color4 !important;
+  }
+  .nav-header {
+    background: @color1;
+    background: url('../patterns/header-profile-@{index}.png');
+  }
+  .mini-navbar .nav-second-level {
+    background: @color2;
+  }
+  .nav-header a.dropdown-toggle {
+    color: @color6;
+    margin-top: 10px;
+  }
+  .nav-header a.dropdown-toggle .text-muted {
+    color: @color14;
+    opacity: 0.8;
+  }
+  .nav-header {
+    background: @color1 !important;
+  }
+  .themeColor {
+    color: darken(@color1, 8%);
+  }
+  .nav.nav-tabs li {
+    background: none;
+    border: none;
+  }
+  .nav.nav-second-level > li.active {
+    border: none;
+  }
+  .body-text-color {
+    color: @color14;
+  }
+  .profile {
+    color: @color14;
+  }
+  .font-mid-weight, .pull-right, .m-t-sm p .btn, .m-t-sm p .btn i, .btn-action, .new-report-button, .m-t-md .btn, .m-t-md .btn i, .modal-footer .btn {
+    color: @color14;
+  }
+  .panel-body .nav-pills > li.active > a, .panel-body .nav-pills > li.active > a:hover, .panel-body .nav-pills > li.active > a:focus {
+    background-color: @color1 !important;
+    color: @color14 !important;
+  }
+  .ranges li {
+    color: darken(@color1, 15%);
+  }
+}
+
+& when (@index="lightGreyDarkRed") {
+  .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary.active[disabled], fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: lighten(@color12, 20%);
+    border: 1px solid darken(@color12, 25%);
+  }
+  .btn-primary {
+    border: 1px solid @color12;
+    background-color: @color12;
+  }
+  .dw-fa-button .pointer {
+    color: @color12;
+  }
+  .new-report-button {
+    background-color: @color12;
+    border-radius: 3px;
+    padding: 2px 4px;
+    color: white;
+  }
+  .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .label-success, .badge-success {
+    background-color: @color13;
+    border: 1px solid @color13;
+  }
+  .label-success {
+    background: @color12;
+    border: 1px solid @color12;
+  }
+  .report-container {
+    border: 1px solid @color12;
+    background-color: lighten(@color12, @per2);
+  }
+  .nav-header {
+    background: @color11;
+    background: url('../patterns/header-profile-@{index}.png');
+  }
+  .mini-navbar .nav-second-level {
+    background: @color1;
+  }
+  .nav-header a.dropdown-toggle {
+    color: @color5;
+    margin-top: 10px;
+  }
+  .nav-header a.dropdown-toggle .text-muted {
+    color: @color3;
+    opacity: 0.8;
+  }
+  .nav-header {
+    background: @color11 !important;
+  }
+  .tabs-container a, .signout {
+    color: @color12;
+  }
+  .themeColor {
+    color: @color12;
+  }
+  #showNewAccessColor {
+    color: @color12 !important;
+  }
+}
+
+.dw-fa-button {
+  color: @color1;
+}
+
+.label-primary, .badge-primary {
+  background: @color1;
+}
+
+._page-background-color {
+  background-color: @color4;
+}
+
+.spin-icon {
+  background: @color1 !important;
+}
+
+& when (@index="blueGreen"), (@index="blueGrey"), (@index="blueLightGreen"), (@index="darkblueWhite"), (@index="darkGreenLightGreen"), (@index="green"), (@index="lightGreyDarkRed"), (@index="redGrey"), (@index="yellowGray") {
+  .nav-second-level {
+    background: darken(@colorNav5, @per3);
+  }
+}
+
+.breadcrumb {
+  background: transparent;
+}
+
+.page-heading {
+  border: none;
+}
+
+.nav > li.active {
+  background: darken(@colorNav, @per);
+}
+
+.nav > li > a {
+  color: @colorNav4;
+}
+
+& when(@index="blueGreen"), (@index="blueGrey"), (@index="blueLightGreen"), (@index="darkGreenLightGreen"), (@index="green"), (@index="lightGreyDarkRed"), (@index="redGrey") {
+  ul.nav-tabs > li > a {
+    color: lighten(@color9, 30%);
+  }
+}
+
+.nav > li.active > a {
+  color: @colorNav1;
+}
+
+.navbar-minimalize {
+  background: @color1;
+  border-color: @color1;
+}
+
+.navbar-static-top {
+  background: @color6;
+}
+
+.dashboard-header {
+  background: transparent;
+  border-bottom: none !important;
+  border-top: none;
+  padding: 20px 30px 10px 30px;
+}
+
+#page-wrapper {
+  background: @color4;
+}
+
+.ibox-title, .ibox-content {
+  border-width: 1px;
+}
+
+.ibox-content:last-child {
+  border-style: solid solid solid solid;
+}
+
+.nav > li.active {
+  border: none;
+}
+
+.img-circle {
+  border-radius: 5px;
+}
+
+.navbar-default .nav > li > a:hover, .navbar-default .nav > li > a:focus {
+  background: darken(@colorNav2, @per1);
+  color: @colorNav3;
+}
+
+.ranges li{
+  color:@color1;
+}
+.ranges li:hover, .ranges li.active, .applyBtn{
+  background:@color1;
+  border:1px solid @color1;
+  color:@color2;
+}
+.ranges li.active:hover{
+  background:@color1;
+  border:1px solid @color1;
+  color:@color2;
+}
+.chosen-container .chosen-results li.highlighted{
+  background:@color1!important;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(20%,@color1),color-stop(90%,@color1))!important;
+  background-image: linear-gradient(@color1 20%,@color1 90%)!important;
+
+}
+.daterangepicker td.in-range{ background:lighten(@color1, 60%)!important;}
+.daterangepicker td.active, .daterangepicker td.active:hover{
+  background:@color1!important;
+}
+
+& when (@index="greenGrey"), (@index="darkBlue"), (@index="blackBlue"), (@index="lightBlueGrey"), (@index="greenDarkGrey"),(@index = 'orangeDarkGrey'), (@index = 'darkBlueGreen'), (@index = 'blueGreen'), (@index = 'blueGrey'), (@index = 'blueLightGreen'), (@index = 'darkblueWhite'), (@index="darkGreenLightGreen"), (@index = 'green'), (@index = 'lightBlueDarkGray'), (@index="lightGreyDarkRed"), (@index="redGrey"), (@index="skin-1"), (@index="skin-3"), (@index="yellowGray") {
+  .nav.nav-tabs > li.active > a {
+    color: #555;
+  }
+}
+
+.nav.nav-tabs > li.active {
+  background: transparent;
+}
+
+.toast-success {
+  background-color: @colorToast;
+}
+
+& when (@index = 'blueGreen'), (@index = 'blueGrey'), (@index = 'blueLightGreen'), (@index="darkGreenLightGreen"), (@index = 'green'), (@index = 'lightBlueDarkGray'), (@index="lightGreyDarkRed"), (@index="redGrey"), (@index="yellowGray") {
+  body {
+    color: @color7;
+  }
+  a.navbar-minimalize i {
+    color: @color5;
+  }
+}
+
+.border-black-solid-1px {
+  border: 1px solid @colorBorder !important;
+}
+
+& when (@index = 'blueGreen'), (@index = 'blueGrey'), (@index = 'blueLightGreen'), (@index="darkGreenLightGreen"), (@index = 'green'), (@index = 'lightBlueDarkGray'), (@index="redGrey"), (@index="yellowGray") {
+  .tabs-container a, .signout {
+    color: @color7;
+  }
+}
+
+& when (@index = 'blueGreen'), (@index = 'blueGrey'), (@index = 'blueLightGreen'), (@index = 'darkGreenLightGreen'), (@index = 'green'), (@index = 'lightBlueDarkGray'), (@index="lightGreyDarkRed"), (@index="redGrey"), (@index="redGrey"), (@index="yellowGray") {
+  .sidebar-collapse .fa {
+    color: @colorSidebar;
+  }
+}
+
+& when (@index = 'blueGreen'), (@index = 'blueGrey'), (@index = 'blueLightGreen'), (@index = 'blueWhite'), (@index = 'darkGreenLightGreen'), (@index = 'green'), (@index = 'lightBlueDarkGray'), (@index="lightGreyDarkRed"), (@index="redGrey"), (@index="yellowGray") {
+  .fa-bell {
+    color: @colorBell;
+  }
+}
+
+& when (@index="blueGreen"), (@index="blueGrey"), (@index = 'blueLightGreen'), (@index = 'darkGreenLightGreen'), (@index="green"), (@index="lightGreyDarkRed"), (@index="redGrey") {
+  .secondayColor {
+    color: lighten(@color9, 25%);
+  }
+}
+
+& when (@index = 'lightBlueDarkGray'), (@index="yellowGray") {
+  .secondayColor {
+    color: @color7;
+  }
+}
+
+.panel-body .nav-pills > li.active > a, .panel-body .nav-pills > li.active > a:hover, .panel-body .nav-pills > li.active > a:focus {
+  background-color: @color1 !important;
+  color: white !important;
+}
+
+& when (@index="blueGreen"), (@index="blueGrey"), (@index = 'blueLightGreen'), (@index = 'darkGreenLightGreen'), (@index="green"), (@index = 'lightBlueDarkGray'), (@index="lightGreyDarkRed"), (@index="redGrey") {
+  .ranges li {
+    color: @color1;
+  }
+}
+
+& when (@index="bluewhite"), (@index="darkbluewhite") {
+  .ranges li {
+    color: darken(@color1, 15%);
+  }
+  a:focus {
+    outline: none;
+  }
+  .sidebar-collapse > ul.metismenu > li > ul.nav > li > a {
+    color: @color2;
+  }
+  .collapse.in {
+    background: @color1;
+  }
+  .sidebar-collapse > ul.metismenu > li > ul.nav > li > a:hover {
+    background: lighten(@color1, 5%) !important;
+  }
+  (~".@{index}_page-background-color") {
+    background: @color4;
+  }
+}
+
+
+& when (@index="skin-1"), (@index="skin-3") {
+  .ranges li {
+    color: darken(@color1, 15%);
+  }
+}
+
+& when (@index="blueGreen"), (@index="blueGrey"), (@index="blueLightGreen"), (@index="blueWhite"), (@index="darkblueWhite"), (@index="darkGreenLightGreen"), (@index = 'lightBlueDarkGray'), (@index="skin-1"), (@index="yellowGray") {
+  .btn-success, .ranges li.active, .ranges li:hover {
+    background: @color1;
+    border: 1px solid darken(@color1, 2%);
+    color: @colorBtn;
+  }
+  .btn-success:hover {
+    background: @color1;
+    border: 1px solid darken(@color1, 2%);
+    color: @colorBtn;
+  }
+}
+
+& when (@index="green"), (@index="lightGreyDarkRed"), (@index="redGrey") {
+  .btn-success, .ranges li.active, .ranges li:hover {
+    background: @color1;
+    border: 1px solid darken(@color1, 2%);
+    color: @colorBtn;
+  }
+  .btn-success:hover {
+    background: @color2;
+    border: 1px solid darken(@color2, 2%);
+    color: @colorBtn;
+  }
+}
+
+& when (@index="skin-3") {
+  .btn-success, .ranges li.active, .ranges li:hover {
+    background: @color1;
+    border: 1px solid darken(@color1, 2%);
+    color: darken(@color3, 10%);
+  }
+  .btn-success:hover {
+    background: @color1;
+    border: 1px solid darken(@color1, 2%);
+    color: darken(@color3, 10%);
+  }
+
+}
+
+.chosen-container-single .chosen-default, .chosen-container-single .chosen-single {
+  color: @colorChosenCont;
+}
+
+.search-choice {
+  background: @color1 !important;
+  color: @colorSearch !important;
+  border: 1px solid @color1 !important;
+}
+
+& when (@index="blueGrey") {
+  .nav-second-level li a, .nav > li.active a .fa {
+    color: @color3 !important;
+  }
+}
+
+& when (@index="lightGreyDarkRed") {
+  .nav li ul.nav-second-level li a {
+    color: @color3;
+  }
+  .navbar-minimalize:hover {
+    background: @color1;
+    border: 1px solid @color1;
+  }
+  .nav > li.active a .fa {
+    color: @color3 !important;
+  }
+}
+
+& when (@index="blueGrey"), (@index="lightGreyDarkRed"), (@index="redGrey") {
+  .gray-bg {
+    background: @color4;
+  }
+}
+
+(~".@{index}_accent-color") {
+  background-color: @color1;
+}
+
+(~".@{index}_nav-background-color") {
+  background-color: @color2;
+}
+
+(~".@{index}_nav-text-color") {
+  background-color: @color3;
+}
+
+(~".fixed-nav.@{index}") .navbar-fixed-top {
+  background: @color6;
+}
+
+& when (@index="greenGrey"), (@index="darkBlue"), (@index="blackBlue"),(@index="lightBlueGrey"), (@index="darkBlueGreen") {
+  .btn-primary {
+    border:none;
+
+  }
+  .nav-second-level{
+    background:@color1!important;
+  }
+
+  .sidebar-collapse > ul.metismenu > li > ul.nav > li > a{
+    color: @color2;
+
+  }
+
+}
+& when(@index="greenDarkGrey"), (@index="orangeDarkGrey") {
+  ul.nav-tabs > li > a {
+    color: @color3;
+
+  }
+  .nav > li > a, .nav > li.active > a {
+    color: @color6;
+  }
+  .navbar-top-links > li > a{
+    color:@color3;
+  }
+  .btn-primary {
+    border: none;
+
+  }
+
+}
+& when (@index="lightBlueGrey"){
+  .nav > li > a{
+    color:@color1;
+  }
+  ul.nav-tabs > li > a {
+    color: @color3;
+
+  }
+
+}
+& when(@index="yellowGray") {
+  .adjustEA-inner:before {
+    color: #999999!important;
+  }
+}
+& when(@index="greenGrey") {
+  .btn-primary:active:focus{
+    border:none;
+  }
+  .chosen-container-single .chosen-default, .chosen-container-single .chosen-single, .modal-title, .dw-fa-button span {
+    color: @color3;
+  }
+  .report-container {
+    border: 1px solid @color1;
+    background-color: lighten(@color1, @per3);
+  }
+}
+
+
+
+

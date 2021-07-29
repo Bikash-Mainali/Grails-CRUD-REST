@@ -1,0 +1,303 @@
+/*
+ *
+ *   INSPINIA - Responsive Admin Theme
+ *   version 2.4
+ *
+*/
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+// Variables, Mixins
+@import "import/variables.less";
+@import "import/mixins.less";
+
+// INSPINIA Theme Elements
+@import "import/typography.less";
+@import "import/navigation.less";
+@import "import/top_navigation.less";
+@import "import/buttons.less";
+@import "import/badgets_labels.less";
+@import "import/elements.less";
+@import "import/sidebar.less";
+@import "import/base.less";
+@import "import/pages.less";
+@import "import/chat.less";
+@import "import/metismenu.less";
+@import "import/spinners.less";
+
+// Landing page styles
+@import "import/landing.less";
+
+// RTL Support
+@import "import/rtl.less";
+
+// For demo only - config box style
+@import "import/theme-config.less";
+
+// Media query style
+@import "import/media.less";
+
+// Custom style
+// Your custom style to override base style
+@import "import/custom.less";
+
+// Clear layout on print mode
+@media print {
+  nav.navbar-static-side {
+    display: none;
+  }
+
+  #page-wrapper {
+    margin: 0;
+  }
+}
+
+.no-spin::-webkit-inner-spin-button,
+.no-spin::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.no-spin {
+  -moz-appearance:textfield;
+}
+
+.panel-body ul.nav{
+  display: inline-block;
+  line-height: 13px;
+}
+
+.panel-body .nav-pills > li {
+  background-color: @white !important;
+  border: none !important;
+}
+
+.panel-body .nav-pills > li > a{
+  background-color:white !important;
+  color: @black !important;
+  border: 1px solid lightgray;
+  padding: 8px 8px 8px 8px;
+}
+
+.panel-body .nav-pills > li.active > a,.panel-body .nav-pills > li.active > a:hover,.panel-body .nav-pills > li.active > a:focus {
+  background-color:#4daa50 !important;
+  color: @white !important;
+  border-radius: 4px;
+}
+
+.spaceOnBottom{
+  padding-bottom: 120px;
+}
+
+.tableScroll {
+  overflow: auto; height:320px;
+}
+.selected-report-count{
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.inmodal .modal-header{
+	padding:15px 15px;
+}
+.modal-body--run-reports input[type="radio"]{
+	position: relative;
+	top:2px;
+}
+.form-horizontal .form-group > div input[type='date'] {
+	padding: 7px 5px !important;
+	width:125px!important;
+}
+h6.bundleReportHeader {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  font-size:12px;}
+
+.deleteTrash .fa:hover
+{
+  color:#969696 !important;
+}
+
+.deleteTrash .fa
+{
+  font-size:18px !important;
+  margin:0 2px;
+  cursor:pointer;
+  float:left;
+}
+.chosen-container-single .chosen-default, .chosen-container-single .chosen-single{
+  font-weight: bold;
+}
+
+
+
+.colorHistory {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 2px solid transparent;
+  //border-color: #e80303;
+  //background: #c70000;
+}
+
+.color-history__title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.preview-history{
+  cursor: pointer;
+}
+
+div.my-modal > div.modal-dialog {
+  width: 1100px !important;
+
+}
+@media (min-width: 992px){
+.modal-lg {
+  width: 1002px;
+}
+}
+.my-modal{
+  margin:10px;
+  //overflow: auto;
+  //height:350px;
+}
+.my-modal-wrapper{
+   display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mainWrapModal h5{
+  font-size: 14px;
+  text-align:center;
+
+
+}
+.my-modal-wrapper.modal-wrap02{
+   margin-top:60px;
+}
+.donutChartPreview{
+  width:200px;height:200px;
+
+}
+.donutChartPreview > div .legend, .optionsPiPreview > div .legend {
+  display:none;
+}
+
+.floatOptionPreview{
+  width:400px;height:200px;
+}
+
+.optionsPiPreview{
+  width:200px;height:220px;
+}
+
+.chartBtn { padding:0 0 0 15px;}
+.chartBtn > div > button, .chartBtn > div > button:hover,.chartBtn > div > button:focus {
+  color:#fff;
+}
+.wcpBtn{
+  width: 80px;
+  height: 32px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 4px;
+}
+
+
+.chartBrandingText01{
+  color:#DFDFDF;;
+}
+
+.history_msg{
+  margin-left:50px;
+}
+
+
+
+// Chart Branding
+
+
+.chartBrandingBlock .btn {
+  margin-right:10px;
+  //border-radius: 0 !important;
+}
+.btn-reset-default {
+  float: right;
+}
+.btn-reset-default:hover {
+   text-decoration: underline;
+
+ }
+.mainWrapColorHistory{
+  border: 1px solid #ccc;
+  width: 300px;
+  position: absolute;
+  top: 72px;
+  min-height:70px;
+  max-height: 280px;
+  overflow: auto;
+  right:0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 3px 10px #ddd;
+}
+.mainWrapColorHistory:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ddd transparent;
+  position: absolute;
+  right: 5px;
+  top: -10px;
+  margin-left: -10px;
+}
+.color-history__row-wrapper {
+  padding: 5px 10px;
+  border-top: 1px solid #d9d9d9;
+  padding-bottom: 10px;
+}
+.color-history__row-wrapper:hover {
+  cursor: pointer;
+  background: #d9d9d9;
+  box-shadow: 0 1px 3px #ccc;
+}
+.color-history__date {
+  margin-bottom: 5px;
+  color: #666;
+}
+.colorHistoryWrap {
+	display: flex;
+	justify-content: space-between;
+}
+/*.charColorWrapper {
+  padding: 0!important;
+  margin: 0!important;
+  height: 120px;
+}*/
+.company-branding, .report-branding{
+  overflow: hidden;
+  padding:0 0 30px 0;
+
+}
+.main-chart-branding {
+  position: relative;
+  height:350px;
+}
+
+.company-branding .company-branding-form, .report-branding .report-branding-innerBlock{
+  padding-left:15px!important;
+}
+.report-branding .report-branding-innerBlock {
+
+  padding-bottom:30px!important;
+}
+
